@@ -70,8 +70,7 @@ const Conta = () => {
           <div className="search-bar">
             <input type="text" placeholder="Pesquisar" />
           </div>
-        <img src={fixedUserImage} alt="User" className="user-image" />
-        <img src={downArrowIcon} alt="Submenu" className="submenu-icon" onClick={toggleSubMenu} />
+        <img src={fixedUserImage} alt="User" className="user-image" onClick={toggleSubMenu} />
       </div>
       
       <h1 className="title">Conta</h1>
