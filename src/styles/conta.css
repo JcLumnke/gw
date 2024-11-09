@@ -8,8 +8,7 @@
     display: flex;
     align-items: center;
     padding: 20px 0 20px 20px;
-    border-bottom: solid 1px #000;
-    background-color: rgb(40, 119, 40); 
+    border-bottom: solid 1px #000; 
     position: relative; 
   }  
   .logo {
@@ -46,7 +45,7 @@
   .title {
     font-size: 50px;
     color: #000;
-    margin: 20px;
+    margin: 45px;
   }  
   .dados-pessoais {
     width:600px;
