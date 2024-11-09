@@ -7,6 +7,7 @@ import downArrowIcon from '../assets/down-arrow.png';
 import qipIcon from '../assets/QIP-16.png'; // Certifique-se de ter a imagem correta ou o ícone desejado
 import AcessibilidadeModal from './AcessibilidadeModal';
 import '../styles/header.css'; // Criar um CSS específico para o cabeçalho
+import fixedUserImage from '../assets/image-10.png';
 
 const Header = () => {
   const navigate = useNavigate();
@@ -14,6 +15,11 @@ const Header = () => {
   // Estados para controlar o modal de acessibilidade e o submenu
   const [isAcessibilidadeOpen, setAcessibilidadeOpen] = useState(false);
   const [isSubMenuOpen, setSubMenuOpen] = useState(false);
+  
+
+  const handleLogoClick = () => {
+    navigate('/inicio');
+  };
 
   // Funções para alternar a visibilidade do modal e do submenu
   const toggleAcessibilidadeModal = () => {
@@ -39,42 +45,17 @@ const Header = () => {
   };
 
   return (
-    <header className="header">
-      <img src={logo} alt="Logo" className="logo" onClick={() => navigate('/home')} />
-      <nav className="nav-menu">
-        <button onClick={() => navigate('/servicos')}>Serviços</button>
-        <button onClick={() => navigate('/forum')}>Fórum</button>
-        <button onClick={() => navigate('/loja')}>Loja</button>
-        <button onClick={() => navigate('/cadastro')}>Cadastro</button>
-        <div className="search-bar">
-          <input type="text" placeholder="Pesquisar" />
-          <span className="search-icon">🔍</span>
-        </div>
-      </nav>
-
-      {/* Substituído o texto por um ícone de acessibilidade */}
-      <button onClick={toggleAcessibilidadeModal} className="accessibility-button">
-        <img src={qipIcon} alt="Acessibilidade" className="accessibility-icon" />
-      </button>
-
-      
-      <button onClick={() => navigate('/conta')} className="profile-button">
-        <img src={profileImage} alt="Perfil" className="profile-image" />
-      </button>
-
-      {/* Modal de Acessibilidade */}
-      {isAcessibilidadeOpen && <AcessibilidadeModal onClose={toggleAcessibilidadeModal} />}
-
-      {/* Botão para abrir o submenu */}
-      <img
-        src={downArrowIcon}
-        alt="Submenu"
-        className="submenu-icon"
-        onClick={toggleSubMenu}
-      />
-
-      {/* Submenu Condicional */}
-      {isSubMenuOpen && (
+    <div className="header">
+    <img src={logo} alt="GW Logo" className="logo" onClick={handleLogoClick} />
+    <a className="menu-item">Serviços</a>
+    <a className="menu-item">Fórum</a>
+    <a className="menu-item">Loja</a>
+    <a className="menu-item">Cadastro</a>
+      <div className="search-bar">
+        <input type="text" placeholder="Pesquisar" />
+      </div>
+    <img src={fixedUserImage} alt="User" className="user-image" onClick={toggleSubMenu} />
+    {isSubMenuOpen && (
         <div className="submenu">
           <div className="submenu-item" onClick={() => handleSubMenuClick('Conta')}>
             <span className="submenu-icon">👤</span> Conta
@@ -87,7 +68,9 @@ const Header = () => {
           </div>
         </div>
       )}
-    </header>
+  </div>
+
+  
   );
 };
 
