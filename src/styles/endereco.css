@@ -1,0 +1,17 @@
+.endereco {
+    width:600px;    
+    border: 0.44px solid #00000038;
+    padding: 30px;
+    margin-bottom: 30px;
+    margin-left:45px;
+    border-radius: 8px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.44);
+  }
+
+.section-title {
+    font-size: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+} 

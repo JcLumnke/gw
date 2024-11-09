@@ -1,6 +1,5 @@
 .contratado {
   font-family: Inter;
-  padding: 20px;
   max-width:auto;
   margin: auto;
   color: #000;
@@ -9,7 +8,6 @@
 .header {
   font-size: 24px;
   text-align: center;
-  margin-bottom: 20px;
 }
 
 .Françisco {

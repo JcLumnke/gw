@@ -3,7 +3,12 @@
     height:auto;    
     background-color: #fff;
     margin: 0px auto;
-  }  
+  }
+
+  .content {
+    display: flex;
+    justify-content: center;
+  }
   .header {
     display: flex;
     align-items: center;
@@ -40,47 +45,34 @@
     font-size: 50px;
     color: #000;
     margin: 45px;
-  }  
+    text-align: center;
+  }
   .dados-pessoais {
     width:600px;
-    border: 1px solid #000;
+    border: 0.44px solid #00000038;
     padding: 30px;
     margin-bottom: 30px;
     margin-left:45px;
     border-radius: 8px;
-  }
- .endereco {
-    width:1100px;    
-    border: 1px solid #000;
-    padding: 30px;
-    margin-bottom: 30px;
-    margin-left:5px;
-    margin-top:80px;
-    border-radius: 8px;    
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.44);
   }  
-  .section-title {
-    font-size: 20px;
-    margin-bottom: 20px;
-  }  
-  .input-group {
-    margin-bottom: 15px;
-  }  
+ 
   .input-group label {
     display: block;
     margin-bottom: 8px;
     color: #000;
   }  
   .input-group input {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     border: 1px solid rgb(148, 144, 144);
     border-radius: 5px;
   }  
   .profile-pic {
     width: 600px;
-    height: 600px;
+    height: 570px;
     margin-left: 900px;
-    margin-top:-700px;
+    margin-top:  10px;
     border-radius: 8px;    
   }  
   .whatsapp-icon {
@@ -90,22 +82,28 @@
     margin-left:1400px;
   }  
   .save-button, .back-button {
-    display: block;
     width: 160px;
     padding: 13px;
     margin: 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-left:600px;
-    margin-top: 20px;    
-  }  
+    margin-top: 20px;
+    margin-bottom: 50px;
+    align-items: center;    
+  }
+
+  .buttonsForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .save-button {
     background-color: #064a0e;
     color: #fff;
   }  
   .back-button {    
-    background-color:gray;    
+    background-color:rgba(128, 128, 128, 0.53);    
   }  
 
   /* Estilos para o submenu */
