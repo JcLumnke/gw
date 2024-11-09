@@ -1,0 +1,235 @@
+.tela-conta {
+    width:auto;
+    height:auto;    
+    background-color: #fff;
+    margin: 0px auto;
+  }  
+  .header {
+    display: flex;
+    align-items: center;
+    padding: 20px 0 20px 20px;
+    border-bottom: solid 1px #000;
+    background-color: rgb(40, 119, 40); 
+    position: relative; 
+  }  
+  .logo {
+    cursor: pointer;
+    width: 80px; 
+    margin-right: 30px;
+  }  
+  .menu-item {
+    color: #000;
+    margin-right: 30px;
+    cursor: pointer;
+    font-size:x-large;
+  }  
+  
+  .search-bar input {
+    border: none;
+    flex: 1;
+    outline: none;
+  }  
+    
+  .user-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 9px;
+  }  
+  .qip-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    right: 110px;
+  }  
+  .title {
+    font-size: 50px;
+    color: #000;
+    margin: 20px;
+  }  
+  .dados-pessoais {
+    width:600px;
+    border: 1px solid #000;
+    padding: 30px;
+    margin-bottom: 30px;
+    margin-left:45px;
+    border-radius: 8px;
+  }
+ .endereco {
+    width:1100px;    
+    border: 1px solid #000;
+    padding: 30px;
+    margin-bottom: 30px;
+    margin-left:5px;
+    margin-top:80px;
+    border-radius: 8px;    
+  }  
+  .section-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }  
+  .input-group {
+    margin-bottom: 15px;
+  }  
+  .input-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #000;
+  }  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(148, 144, 144);
+    border-radius: 5px;
+  }  
+  .profile-pic {
+    width: 600px;
+    height: 600px;
+    margin-left: 900px;
+    margin-top:-700px;
+    border-radius: 8px;    
+  }  
+  .whatsapp-icon {
+    width: 87px;
+    height: 87px;
+    margin: 20px;
+    margin-left:1400px;
+  }  
+  .save-button, .back-button {
+    display: block;
+    width: 160px;
+    padding: 13px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left:600px;
+    margin-top: 20px;    
+  }  
+  .save-button {
+    background-color: #064a0e;
+    color: #fff;
+  }  
+  .back-button {    
+    background-color:gray;    
+  }  
+
+  /* Estilos para o submenu */
+
+.submenu {
+  position: absolute;
+  top: 60px; 
+  right: 20px; 
+  width: 200px;
+  background-color: #d9d9d9;
+  border: 1px solid #000;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+.submenu-item {
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+}
+.submenu-item:hover {
+  background-color: #e0e0e0;
+}
+.submenu-icon {
+  font-size: 10px;   
+}
+  /* Abaixo os estilos para o modal de acessibilidade */
+
+.modal-overlay {
+  position: fixed;
+  top: 120px;
+  right: 30px;
+  width: 80%;
+  height: 60%;  
+  display: flex;
+  justify-content: flex-end;
+  align-items:center;  
+}
+.modal-content {
+  background-color: #f3ecec;
+  width: 30%;
+  height: 100%;
+  padding: 20px;
+  overflow-y: auto;
+}
+.modal-header {
+  display: flex;
+  width: 100%;  
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3398f4;
+}
+.close-button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-right:20px;
+}
+.ACESSIBILIDADE {
+  font-size: 1.5rem;
+  color: #000;
+  margin-bottom: 20px;
+  margin-left:20px;
+}
+.modal-body {
+  display: flex;
+  flex-direction:column;
+  gap: 30px; 
+}
+.setting-row {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  padding: 10px;
+  border-bottom: 1px solid #ccc; 
+}
+.setting-label {
+  flex: 1; 
+  font-size: 18px; 
+  color:#000;
+  text-align:left; 
+  margin-left: 20px; 
+}
+.setting-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px; 
+}
+.Pill {
+  width: 50px;
+  height: 25px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  border-radius: 15px;
+  background-color: #bdb4b4;
+  cursor: pointer;
+  margin-right: 10px; 
+  font-size: 12px; 
+}
+.Pill.off {
+  background-color: #ff0303;
+  color: #fff; 
+}
+.Rectangle-9 {
+  width: 300px;
+  height: 53px;
+  margin: 74px 0 0 8px;
+  padding: 14px 7px 8px 262px;
+  background-color: #3398f4;
+}
+  
+
+

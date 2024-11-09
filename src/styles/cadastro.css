@@ -1,0 +1,60 @@
+
+.Tela-Cadastro {
+    width: 392px;
+    height: 615px;
+    padding: 20px;
+    background-color: rgb(40, 119, 40); 
+    margin: 50px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Logo {
+    display: block;
+    width: 80px;
+    margin: 0 auto 20 px;
+  }
+  
+  .cadastro {
+    font-size: 24px;
+    color:#000;    
+    margin-bottom: 40px;
+    text-align:center;
+    font-size:xx-large;
+  }
+  
+  .Nome, .Email, .Senha {
+    margin-bottom: 40px;
+  }
+  
+  .Nome input, .Email input, .Senha input {
+    width: calc(100% - 8%);
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    background-color: #fff;
+    text-align:left;
+    color:#000;
+    font-weight: bold;
+       
+  }
+  .Nome input::placeholder, .Email input::placeholder, .Senha input::placeholder {
+    color: #000; 
+    opacity: 1; 
+  }
+  
+  .btnCadastrar button {
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    
+  }
+  
+  .btnCadastrar button:hover {
+    background-color: #333;
+  }
+  

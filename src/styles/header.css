@@ -1,0 +1,53 @@
+.header {   
+    justify-content:space-between;
+    background-color: #fff;
+    padding: 10px  20px;
+    border-bottom: 1px solid #ddd;
+    margin: 0px auto;
+    width:auto;
+    height:auto; 
+
+    
+  }
+  
+  .logo {
+    height: 40px;
+    cursor: pointer;
+  }
+  
+  .nav-menu button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20px;
+    
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    width: 15%;    
+    padding: 1px 0 1px 1px;
+    border: solid 2px #e0e0e0;
+    background-color: #fff;
+    border-radius: 8px;
+    height: 29px;
+  }
+
+  
+  .profile-button img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer; 
+       
+    
+  }
+  
+  .accessibility-icon {
+    width: 30px; /* Ajuste o tamanho */
+    height: 30px; /* Ajuste o tamanho */
+  }
+  
+  

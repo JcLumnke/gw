@@ -1,0 +1,104 @@
+.contratado {
+  font-family: Inter;
+  padding: 20px;
+  max-width:auto;
+  margin: auto;
+  color: #000;
+}
+
+.header {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Françisco {
+  font-size: 64px;
+  font-weight: bold;
+  color: #000;
+}
+
+.Paragraph {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.image-7 {
+  width: 100%;
+  max-width: 508px;
+  height: auto;
+  margin-top: 20px;
+}
+
+.QIP-16 {
+  width: 302px;
+  height: auto;
+}
+
+.-Button---Primary {
+  width: 100%;
+  max-width: 508px;
+  height: 52px;
+  background-color: #02a558;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.Redes-Sociais {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.comentarios {
+  margin-top: 30px;
+}
+
+.comentario {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.QIP-1, .QIP-2, .QIP-15, .image-100 {
+  width: 40px;
+  height: 40px;
+}
+
+.add-comment {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.add-comment input {
+  width: 80%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.acoes {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.acoes button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #fff;
+  background-color: #444;
+}
