@@ -2,10 +2,10 @@
     width: 392px;
     height: 615px;
     padding: 20px;
-    background-color: rgb(40, 119, 40); 
+    background-color: rgba(203, 216, 203, 0.479); 
     margin: 50px auto;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 12px 12px rgba(0, 0, 0, 0.44);
   }
   
   .Logo {
@@ -53,17 +53,19 @@
     margin-top: 60px; 
     display:flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 30px;
   }
   
   .CadastrarButton, .EntrarButton {
-    width: 100%;
+    width: 70%;
     padding: 15px;
     font-size: 16px;
     color: #fff;
     background-color: #000;
     border: none;
-    border-radius: 4px;
+    border-radius: 8px;
     cursor: pointer;
     
   }
